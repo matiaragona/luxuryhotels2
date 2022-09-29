@@ -6,18 +6,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="" href="" />
+    <script
+      src="https://kit.fontawesome.com/62d5cfe81e.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
     <title>Contactanos</title>
   </head>
   <body>
     <header class="main_header">
-      <nav>
-        <ul>
-          <li><a href="./index.html">Inicio</a></li>
-          <li><a href="./facilidades.html">Facilidades</a></li>
-          <li><a href="./cuartos.html">Habitaciones</a></li>
-          <li><a href="./contacto.html">Contactanos</a></li>
-          <li><a href="./sobrenosotros.html">Sobre nosotros</a></li>
-        </ul>
+      <nav class="navbar navbar-expand-lg bg-gradient">
+        <div class="container-fluid">
+          <a class="navbar-brand text-white" href="index.html">Inicio</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active text-white" aria-current="page" href="facilidades.html">Facilidades</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="./cuartos.html">Habitaciones</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Informacion
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="./sobrenosotros.html">Mas Informacion</a></li>
+                  <li><a class="dropdown-item" href="./contacto.html">Contactanos</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
       </nav>
     </header>
     <div>
@@ -44,22 +74,51 @@
       <textarea name="textarea" class="form_text"></textarea>
       <input type="submit" value="Enviar" />
     </div>
-    <footer class="footer">
-      <h3>Luxury</h3>
-      <div class="footer_info">
-        <ul>
-          <li><a href="">Sobre nosotros</a></li>
-          <li><a href="">Contacto</a></li>
-          <li><a href="">Terminos y condiciones</a></li>
-        </ul>
-      </div>
-      <div class="footer_redes">
-        <ul>
-          <li><a href="">Instagram</a></li>
-          <li><a href="">Twitter</a></li>
-          <li><a href="">Facebook</a></li>
-        </ul>
+    <footer class="footer text-white">
+      <div class="container">
+        <nav class="row">
+          <!-- menu1 -->
+          <ul class="col-4 list-unstyled">
+            <li class="font-weight-bold text-uppercase">Paginas</li>
+            <li><a href="./index.html" class="text-reset">Inicio</a></li>
+            <li>
+              <a href="./facilidades.html" class="text-reset">Facilidades</a>
+            </li>
+            <li>
+              <a href="./cuartos.html" class="text-reset">Habitaciones</a>
+            </li>
+          </ul>
+          <!-- menu2 -->
+          <ul class="col-4 list-unstyled">
+            <li class="font-weight-bold text-uppercase">Informacion</li>
+            <li>
+              <a href="./sobrenosotros.html" class="text-reset"
+                >Mas Informacion</a
+              >
+            </li>
+            <li>
+              <a href="./contacto.html" class="text-reset">Contactanos</a>
+            </li>
+          </ul>
+          <!-- redes -->
+          <ul class="col-4 list-unstyled">
+            <li class="font-weight-bold text-uppercase">Redes sociales</li>
+            <div class="d-flex justify-content-between">
+              <li><a href="" class="fa fa-facebook"></a></li>
+              <li><a href="" class="fa fa-instagram"></a></li>
+              <li><a href="" class="fa fa-twitter"></a></li>
+              <li><a href="" class="fa fa-pinterest"></a></li>
+            </div>
+          </ul>
+        </nav>
       </div>
     </footer>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

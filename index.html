@@ -6,18 +6,78 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="shortcut icon" href="" />
+    <!-- icon -->
+    <script
+      src="https://kit.fontawesome.com/62d5cfe81e.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
     <title>Luxury Hotel</title>
   </head>
   <body>
     <header class="main_header">
-      <nav>
-        <ul>
-          <li><a href="./index.html">Inicio</a></li>
-          <li><a href="./facilidades.html">Facilidades</a></li>
-          <li><a href="./cuartos.html">Habitaciones</a></li>
-          <li><a href="./contacto.html">Contactanos</a></li>
-          <li><a href="./sobrenosotros.html">Sobre nosotros</a></li>
-        </ul>
+      <nav class="navbar navbar-expand-lg bg-gradient">
+        <div class="container-fluid">
+          <a class="navbar-brand text-white" href="index.html">Inicio</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link active text-white"
+                  aria-current="page"
+                  href="facilidades.html"
+                  >Facilidades</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="./cuartos.html"
+                  >Habitaciones</a
+                >
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle text-white"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Informacion
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="./sobrenosotros.html"
+                      >Mas Informacion</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="./contacto.html"
+                      >Contactanos</a
+                    >
+                  </li>
+                  <li><hr class="dropdown-divider" /></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
       </nav>
     </header>
     <!-- comienza el titulo principal -->
@@ -32,60 +92,83 @@
     <!-- finaliza el titulo principal -->
     <h4>Todas nuestras habitaciones incluyen desayuno</h4>
     <!-- comienza informacion -->
-    <div class="fondo_rooms">
-      <div class="image_rooms">
-        <div class="text_rooms">
-          <h3>hola como estas</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde,
-            numquam. Quidem aliquam excepturi laudantium facere illum, porro
-            perspiciatis rerum ab voluptatem, itaque non at nam quis natus,
-            velit deserunt possimus.
-          </p>
-        </div>
-        <img
-          src="./img/Group 29 final.png"
-          alt="Habitacion luxury redifined"
-          width="400px"
-          height="300px"
-        />
+    <div class="card text-dark bg-dark mt-5 mb-5">
+      <img
+        src="./img/Group 29 final.png"
+        class="card-img"
+        alt="Imagen de Habitacion"
+      />
+      <div class="card-img-overlay">
+        <h5 class="card-title">Habitacion doble</h5>
+        <p class="card-text">
+          This is a wider card with supporting text below as a natural lead-in
+          to additional content. This content is a little bit longer.
+        </p>
+        <p class="card-text"><small>Last updated 3 mins ago</small></p>
       </div>
-      <div class="image_rooms">
-        <div>
-          <h3 class="text_rooms">hola como estas</h3>
-          <p class="text_rooms">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab
-            necessitatibus adipisci laborum! Illum, recusandae natus iure,
-            reprehenderit, itaque quis neque velit dignissimos illo soluta
-            libero enim nesciunt? Sit, animi cum?
-          </p>
-        </div>
-        <img
-          src="./img/Group 30 final.png"
-          alt="Imagen de la playa"
-          width="400px"
-          height="300px"
-        />
+    </div>
+    <div class="card text-dark bg-dark mt-5 mb-5 my-5">
+      <img
+        src="./img/Group 30 final.png"
+        class="card-img"
+        alt="Imagen de poolbar"
+      />
+      <div class="card-img-overlay">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">
+          This is a wider card with supporting text below as a natural lead-in
+          to additional content. This content is a little bit longer.
+        </p>
+        <p class="card-text"><small>Last updated 3 mins ago</small></p>
       </div>
     </div>
     <!-- comienza footer -->
-    <footer class="footer">
-      <h3>Luxury</h3>
-      <div class="footer_info">
-        <ul>
-          <li><a href="">Sobre nosotros</a></li>
-          <li><a href="">Contacto</a></li>
-          <li><a href="">Terminos y condiciones</a></li>
-        </ul>
-      </div>
-      <div class="footer_redes">
-        <ul>
-          <li><a href="">Instagram</a></li>
-          <li><a href="">Twitter</a></li>
-          <li><a href="">Facebook</a></li>
-        </ul>
+    <footer class="footer text-white">
+      <div class="container">
+        <nav class="row">
+          <!-- menu1 -->
+          <ul class="col-4 list-unstyled">
+            <li class="font-weight-bold text-uppercase">Paginas</li>
+            <li><a href="./index.html" class="text-reset">Inicio</a></li>
+            <li>
+              <a href="./facilidades.html" class="text-reset">Facilidades</a>
+            </li>
+            <li>
+              <a href="./cuartos.html" class="text-reset">Habitaciones</a>
+            </li>
+          </ul>
+          <!-- menu2 -->
+          <ul class="col-4 list-unstyled">
+            <li class="font-weight-bold text-uppercase">Informacion</li>
+            <li>
+              <a href="./sobrenosotros.html" class="text-reset"
+                >Mas Informacion</a
+              >
+            </li>
+            <li>
+              <a href="./contacto.html" class="text-reset">Contactanos</a>
+            </li>
+          </ul>
+          <!-- redes -->
+          <ul class="col-4 list-unstyled">
+            <li class="font-weight-bold text-uppercase">Redes sociales</li>
+            <div class="d-flex justify-content-between">
+              <li><a href="" class="fa fa-facebook"></a></li>
+              <li><a href="" class="fa fa-instagram"></a></li>
+              <li><a href="" class="fa fa-twitter"></a></li>
+              <li><a href="" class="fa fa-pinterest"></a></li>
+            </div>
+          </ul>
+        </nav>
       </div>
     </footer>
     <!-- finaliza el footer -->
+
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
