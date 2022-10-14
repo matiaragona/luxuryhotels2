@@ -1,0 +1,263 @@
+a {
+  color: white;
+  text-decoration: none;
+}
+
+@media (min-width: 992px) {
+.main_header {
+    background-color: #14274a;
+    color: black;
+    ul {
+    list-style: none;
+    font-size: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    }
+}
+.main {
+    background-image: url(../../img/main_prinpal_fondo.png);
+    width: 100%;
+    height: 750px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    &_facilidades {
+    background-image: url(../../img/palmstree_final.png);
+    width: 1350px;
+    height: 750px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    }
+
+    &_habitaciones {
+    background-image: url(../img/rooms.jpg);
+    width: 1350px;
+    height: 750px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    }
+}
+.card{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.text_main {
+    margin-left: 150px;
+    animation-name: text_main;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-duration: 8s;
+}
+h4 {
+    text-align: center;
+    background-color: #d3dbeb;
+    padding: 60px;
+}
+.fondo_rooms {
+    background-color: #d3dbeb;
+}
+.image_rooms {
+    display: flex;
+    justify-content: center;
+    padding: 60px 150px 60px 150px;
+    &:hover {
+    transform: scale(1.2);
+    }
+}
+.text_rooms {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+.image_border {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    &:hover {
+      transform: scale(1.2);
+    }
+  }
+  /* inicio de las animaciones */
+  @keyframes text_main {
+    0%,
+    100% {
+      transform: translate(25px, 25px);
+    }
+    25% {
+      transform: translate(25px, -25px);
+    }
+    50% {
+      transform: translate(-25px, 25px);
+    }
+    75% {
+      transform: translate(-25px, -25px);
+    }
+  }
+}
+@media (max-width: 992px) {
+  .main_header {
+    background-color: #14274a;
+    color: black;
+    ul {
+      list-style: none;
+      font-size: 100%;
+      padding: 10px;
+      display: flex;
+      justify-content: space-around;
+    }
+  }
+  .main {
+    background-color: #14274a;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &_facilidades {
+      background-color: #14274a;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    &_habitaciones {
+      background-color: #14274a;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+  }
+  .text_main {
+    margin-left: 150px;
+    color: white;
+  }
+  h4 {
+    text-align: center;
+    background-color: #d3dbeb;
+    padding: 60px;
+  }
+  .footer {
+    background-image: linear-gradient(to bottom, #020024 0%, #14274a 100%);
+    color: white;
+  }
+  .fondo_rooms {
+    background-color: #d3dbeb;
+  }
+  .image_rooms {
+    display: flex;
+    justify-content: center;
+    padding: 60px 150px 60px 150px;
+  }
+  .text_rooms {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+  }
+  .image_border {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+  .footer {
+    background-color: #14274a !important;
+  }
+  .main_contacto {
+    background-color: #14274a;
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding: 60px 0 60px 0;
+  }
+  
+  .image_precios {
+    padding: 60px;
+  }
+  .image_precios {
+    background-color: #d3dbeb;
+  }
+}
+@media (max-width: 768px) {
+  .main_header {
+    background-color: #14274a;
+    color: black;
+    ul {
+      list-style: none;
+      font-size: 100%;
+      padding: 10px;
+      display: flex;
+      justify-content: space-around;
+    }
+  }
+  .main {
+    background-color: #14274a;
+    text-align: start;
+    padding-top: 50px;
+
+    &_facilidades {
+      background-color: #14274a;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding-top: 50px;
+    }
+
+    &_habitaciones {
+      background-color: #14274a;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding-top: 50px;
+    }
+  }
+  .text_main {
+    margin-left: 50px;
+    color: white;
+  }
+  h4 {
+    text-align: center;
+    background-color: #d3dbeb;
+    padding: 60px;
+  }
+  .footer {
+    background-image: linear-gradient(to bottom, #020024 0%, #14274a 100%);
+    color: white;
+  }
+  .fondo_rooms {
+    background-color: #d3dbeb;
+  }
+  .image_rooms {
+    display: flex;
+    justify-content: center;
+    padding: 60px 150px 60px 150px;
+  }
+  .text_rooms {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+  }
+  .image_border {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+  .footer {
+    background-color: #14274a !important;
+  }
+
+  
+  .image_precios {
+    padding: 60px;
+  }
+  .image_precios {
+    background-color: #d3dbeb;
+  }
+
+}

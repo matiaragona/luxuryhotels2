@@ -1,0 +1,107 @@
+.main_contacto {
+    background-color: #14274a;
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding: 60px 0 60px 0;
+  }
+  .text_contacto {
+    background-color: #d3dbeb;
+    padding: 160px 100px 60px 100px;
+  }
+  .formulario_contacto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 50px 50px 50px;
+    background-color: #d3dbeb;
+  }
+  .form_name {
+    margin-bottom: 20px;
+  }
+  .form_email {
+    margin-bottom: 20px;
+  }
+  .form_text {
+    margin-bottom: 20px;
+  }
+  @media (min-width: 992px){
+    .main_contacto {
+      background-color: #14274a;
+      display: flex;
+      justify-content: center;
+      color: white;
+      padding: 60px 0 60px 0;
+    }
+    .text_contacto {
+      background-color: #d3dbeb;
+      padding: 160px 100px 60px 100px;
+    }
+    .formulario_contacto {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 50px 50px 50px 50px;
+      background-color: #d3dbeb;
+    }
+    .form_name {
+      margin-bottom: 20px;
+    }
+    .form_email {
+      margin-bottom: 20px;
+    }
+    .form_text {
+      margin-bottom: 20px;
+    }
+  }
+  @media (max-width:992px) {
+    .text_contacto {
+      background-color: #d3dbeb;
+      padding: 160px 100px 60px 100px;
+    }
+    .formulario_contacto {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 50px 50px 50px 50px;
+      background-color: #d3dbeb;
+    }
+    .form_name {
+      margin-bottom: 20px;
+    }
+    .form_email {
+      margin-bottom: 20px;
+    }
+    .form_text {
+      margin-bottom: 20px;
+    }
+  }
+  @media (max-width: 768px){
+    .main_contacto {
+      background-color: #14274a;
+      display: flex;
+      justify-content: center;
+      color: white;
+      padding: 60px 0 60px 0;
+    }
+    .text_contacto {
+      background-color: #d3dbeb;
+      padding: 160px 100px 60px 100px;
+    }
+    .formulario_contacto {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 50px 50px 50px 50px;
+      background-color: #d3dbeb;
+    }
+    .form_name {
+      margin-bottom: 20px;
+    }
+    .form_email {
+      margin-bottom: 20px;
+    }
+    .form_text {
+      margin-bottom: 20px;
+    }
+  }

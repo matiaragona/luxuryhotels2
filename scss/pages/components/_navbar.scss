@@ -1,0 +1,11 @@
+.main_header {
+  background-color: #14274a;
+  color: black;
+  ul {
+    list-style: none;
+    font-size: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+  }
+}

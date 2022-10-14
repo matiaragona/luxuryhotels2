@@ -20,7 +20,7 @@
     <title>Contactanos</title>
   </head>
   <body>
-    <header class="main_header">
+    <header class="main_header fixed-top">
       <nav class="navbar navbar-expand-lg bg-gradient">
         <div class="container-fluid">
           <a class="navbar-brand text-white" href="index.html">Inicio</a>
@@ -65,14 +65,20 @@
       </p>
     </div>
     <div class="formulario_contacto">
-      <form action=""></form>
-      <label for="text">Nombre completo</label>
-      <input type="text" name="Nombre" placeholder="Nombre completo" class="form_name" />
-      <label for="emial">Correo electronico</label>
-      <input type="emial" name="emial" placeholder="Correo electronico" class="form_email" />
-      <label for="text">Mensaje</label>
-      <textarea name="textarea" class="form_text"></textarea>
-      <input type="submit" value="Enviar" />
+      <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Nombre completo</label>
+        <input type="text" class="form-control" id="nombrecompleto" placeholder="Nombre y apellido">
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Correo electronico</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label">Consulta</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        <button type="button" class="btn btn-primary bg-primary btn-sm mt-4">Enviar</button>
+<button type="button" class="btn btn-secondary bg-primary btn-sm mt-4">Limpiar formulario</button>
+      </div>
     </div>
     <footer class="footer text-white">
       <div class="container">
