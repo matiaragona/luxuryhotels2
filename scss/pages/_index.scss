@@ -24,7 +24,7 @@ a {
     justify-content: center;
 
     &_facilidades {
-    background-image: url(../../img/palmstree_final.png);
+    background-image: url(../../img/lobby.png);
     width: 1350px;
     height: 750px;
     display: flex;
@@ -44,7 +44,6 @@ a {
 .card{
     margin-left: 50px;
     margin-right: 50px;
-    margin-top: 50px;
     margin-bottom: 50px;
 }
 .text_main {
@@ -75,15 +74,7 @@ h4 {
     flex-wrap: wrap;
     margin-bottom: 10px;
 }
-.image_border {
-    display: flex;
-    justify-content: center;
-    margin-top: 60px;
-    margin-bottom: 60px;
-    &:hover {
-      transform: scale(1.2);
-    }
-  }
+
   /* inicio de las animaciones */
   @keyframes text_main {
     0%,
