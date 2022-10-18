@@ -1,3 +1,4 @@
+
 // Include any default variable overrides here (though functions won't be available)
 $primary: #14274a !default;
 @import "../node_modules/bootstrap/scss/bootstrap";
@@ -6,8 +7,8 @@ $primary: #14274a !default;
 
 @import "./pages/components/footer";
 @import "./pages/components/navbar";
-@import "./pages/index";
 @import "./pages/contacto";
+@import "./pages/index";
 @import "./pages/cuartos";
 @import "./pages/facilidades";
 @import "./pages/sobrenosotros";
