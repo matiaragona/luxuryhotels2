@@ -7,6 +7,7 @@ a {
 .main_header {
     background-color: #14274a;
     color: black;
+    background-size: cover;
     ul {
     list-style: none;
     font-size: 100%;
@@ -17,6 +18,7 @@ a {
 }
 .main {
     background-image: url(../../img/main_prinpal_fondo.png);
+    background-size: cover;
     width: 100%;
     height: 750px;
     display: flex;
@@ -25,6 +27,7 @@ a {
 
     &_facilidades {
     background-image: url(../../img/lobby.png);
+    background-size: cover;
     width: 1350px;
     height: 750px;
     display: flex;
@@ -34,6 +37,7 @@ a {
 
     &_habitaciones {
     background-image: url(../img/rooms.jpg);
+    background-size: cover;
     width: 1350px;
     height: 750px;
     display: flex;
