@@ -26,6 +26,9 @@
   margin-bottom: 20px;
 }
 @media (min-width: 992px) {
+  .navbar {
+    background-color: $primary;
+}
   .main_contacto {
     background-color: #14274a;
     display: flex;
@@ -55,6 +58,9 @@
   }
 }
 @media (max-width: 992px) {
+  .navbar {
+    background-color: $primary;
+}
   .main_contacto {
     background-color: #14274a;
     display: flex;
@@ -84,6 +90,9 @@
   }
 }
 @media (max-width: 768px) {
+  .navbar {
+    background-color: $primary;
+}
   .main_contacto {
     background-color: #14274a;
     display: flex;

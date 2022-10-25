@@ -8432,6 +8432,8 @@ textarea.form-control-lg {
   margin-bottom: 20px; }
 
 @media (min-width: 992px) {
+  .navbar {
+    background-color: #14274a; }
   .main_contacto {
     background-color: #14274a;
     display: flex;
@@ -8455,6 +8457,8 @@ textarea.form-control-lg {
     margin-bottom: 20px; } }
 
 @media (max-width: 992px) {
+  .navbar {
+    background-color: #14274a; }
   .main_contacto {
     background-color: #14274a;
     display: flex;
@@ -8478,6 +8482,8 @@ textarea.form-control-lg {
     margin-bottom: 20px; } }
 
 @media (max-width: 768px) {
+  .navbar {
+    background-color: #14274a; }
   .main_contacto {
     background-color: #14274a;
     display: flex;
@@ -8505,18 +8511,10 @@ a {
   text-decoration: none; }
 
 @media (min-width: 992px) {
-  .main_header {
-    background-color: #14274a;
-    color: black;
-    background-size: cover; }
-    .main_header ul {
-      list-style: none;
-      font-size: 100%;
-      padding: 10px;
-      display: flex;
-      justify-content: space-around; }
+  .navbar {
+    background-color: #14274a; }
   .main {
-    background-image: url(../../img/main_prinpal_fondo.png);
+    background-image: url(../../img/main_prinpal_fondo_final.png);
     background-size: cover;
     width: 100%;
     height: 750px;
@@ -8524,7 +8522,7 @@ a {
     flex-direction: column;
     justify-content: center; }
     .main_facilidades {
-      background-image: url(../../img/lobby.png);
+      background-image: url(../../img/lobbyfinal.png);
       background-size: cover;
       width: 1350px;
       height: 750px;
@@ -8532,7 +8530,7 @@ a {
       flex-direction: column;
       justify-content: center; }
     .main_habitaciones {
-      background-image: url(../img/rooms.jpg);
+      background-image: url(../../img/roomsfinal.jpg);
       background-size: cover;
       width: 1350px;
       height: 750px;
@@ -8578,6 +8576,8 @@ a {
       transform: translate(-25px, -25px); } } }
 
 @media (max-width: 992px) {
+  .navbar {
+    background-color: #14274a; }
   .main_header {
     background-color: #14274a;
     color: black; }
@@ -8641,6 +8641,8 @@ a {
     background-color: #d3dbeb; } }
 
 @media (max-width: 768px) {
+  .navbar {
+    background-color: #14274a; }
   .main_header {
     background-color: #14274a;
     color: black; }
@@ -8704,18 +8706,24 @@ a {
   background-color: #d3dbeb; }
 
 @media (min-width: 992px) {
+  .navbar {
+    background-color: #14274a; }
   .text_habitaciones {
     text-align: center;
     padding: 60px;
     background-color: #d3dbeb; } }
 
 @media (max-width: 992px) {
+  .navbar {
+    background-color: #14274a; }
   .text_habitaciones {
     text-align: center;
     padding: 60px;
     background-color: #d3dbeb; } }
 
 @media (max-width: 768px) {
+  .navbar {
+    background-color: #14274a; }
   .text_habitaciones {
     text-align: center;
     padding: 60px;
@@ -8735,6 +8743,8 @@ a {
   background-color: #d3dbeb; }
 
 @media (min-width: 992px) {
+  .navbar {
+    background-color: #14274a; }
   .text_facilidades {
     padding: 60px;
     text-align: center;
@@ -8755,6 +8765,8 @@ a {
       transform: scale(1.2); } }
 
 @media (max-width: 992px) {
+  .navbar {
+    background-color: #14274a; }
   .text_facilidades {
     padding: 60px;
     text-align: center;
@@ -8773,6 +8785,8 @@ a {
     margin-bottom: 60px; } }
 
 @media (max-width: 768px) {
+  .navbar {
+    background-color: #14274a; }
   .text_facilidades {
     padding: 60px;
     text-align: center;
@@ -8797,6 +8811,8 @@ a {
   padding: 60px; }
 
 @media (min-width: 992px) {
+  .navbar {
+    background-color: #14274a; }
   .text_nosotros {
     text-align: center;
     background-color: #14274a;
@@ -8807,6 +8823,8 @@ a {
     margin-bottom: 25px; } }
 
 @media (max-width: 992px) {
+  .navbar {
+    background-color: #14274a; }
   .text_nosotros {
     text-align: center;
     background-color: #14274a;
@@ -8814,6 +8832,8 @@ a {
     padding: 100px; } }
 
 @media (max-width: 768px) {
+  .navbar {
+    background-color: #14274a; }
   .text_nosotros {
     text-align: center;
     background-color: #14274a;

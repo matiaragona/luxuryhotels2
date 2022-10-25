@@ -4,6 +4,9 @@
     background-color: #d3dbeb;
   }
   @media (min-width: 992px){
+    .navbar {
+      background-color: $primary;
+  }
     .text_habitaciones {
         text-align: center;
         padding: 60px;
@@ -11,6 +14,9 @@
       }
   }
   @media (max-width: 992px){
+    .navbar {
+      background-color: $primary;
+  }
     .text_habitaciones {
         text-align: center;
         padding: 60px;
@@ -18,6 +24,9 @@
       }
   }
   @media (max-width: 768px){
+    .navbar {
+      background-color: $primary;
+  }
     .text_habitaciones {
         text-align: center;
         padding: 60px;

@@ -4,20 +4,11 @@ a {
 }
 
 @media (min-width: 992px) {
-.main_header {
-    background-color: #14274a;
-    color: black;
-    background-size: cover;
-    ul {
-    list-style: none;
-    font-size: 100%;
-    padding: 10px;
-    display: flex;
-    justify-content: space-around;
-    }
+.navbar {
+    background-color: $primary;
 }
 .main {
-    background-image: url(../../img/main_prinpal_fondo.png);
+    background-image: url(../../img/main_prinpal_fondo_final.png);
     background-size: cover;
     width: 100%;
     height: 750px;
@@ -26,7 +17,7 @@ a {
     justify-content: center;
 
     &_facilidades {
-    background-image: url(../../img/lobby.png);
+    background-image: url(../../img/lobbyfinal.png);
     background-size: cover;
     width: 1350px;
     height: 750px;
@@ -36,7 +27,7 @@ a {
     }
 
     &_habitaciones {
-    background-image: url(../img/rooms.jpg);
+    background-image: url(../../img/roomsfinal.jpg);
     background-size: cover;
     width: 1350px;
     height: 750px;
@@ -97,6 +88,9 @@ h4 {
   }
 }
 @media (max-width: 992px) {
+  .navbar {
+    background-color: $primary;
+}
   .main_header {
     background-color: #14274a;
     color: black;
@@ -179,6 +173,9 @@ h4 {
   }
 }
 @media (max-width: 768px) {
+  .navbar {
+    background-color: $primary;
+}
   .main_header {
     background-color: #14274a;
     color: black;
